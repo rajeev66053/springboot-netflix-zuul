@@ -21,17 +21,3 @@
 	
 Here the first parameter `doctor-service` is from the api-gateway application.properties and second parameter `doctors` is form doctors GetMapping of doctors methods of MasinController in doctor service.
 
-* There are different type of zuul filter. They are:
-	1. Pre filter
-	2. Post filter
-	3. route filter
-	4. error filter
-	5. custom filter
-	
-* Characterstics of filter:
-	1. Type	- filterType() method
-	2. ExecutionOrder - filterOrder() method
-	3. Criteria - shouldFilter() method
-	4. Action - run() method
-	
-
